@@ -1,8 +1,8 @@
 `temper_query`
 ==============
 
-Keep It Simple, Stupid, (KISS) userspace driver for TEMPer_Gold_v3.1 temperature
-sensor.
+Keep It Simple, Stupid, (KISS) userspace driver for the TEMPer_Gold_v3.1
+temperature sensor.
 
 Goals
 -----
@@ -34,7 +34,7 @@ The resulting executable can then be installed to the system:
 
 `temper_query` depends on HIDAPI to query and receive the temperature response
 from the TEMPer sensor.  It can be pulled from its
-[github](https://github.com/signal11/hidapi) repo and compiled from source or
+[GitHub](https://github.com/signal11/hidapi) repo and compiled from source or
 downloaded in binary form via the appropriate system package manager.
 
 Run
@@ -55,8 +55,10 @@ As my first project working directly with raw HID USB, I would not have been
 able to hack together this program without standing on the shoulders of previous
 work:
 
-* [This](https://github.com/padelt/temper-python/issues/84) forum thread
-* [This](https://github.com/edorfaus/TEMPered/issues/51) forum thread
+* [This](https://github.com/padelt/temper-python/issues/84) forum thread on the
+  [temper-python](https://github.com/padelt/temper-python) repository
+* [This](https://github.com/edorfaus/TEMPered/issues/51) forum thread on the
+  [TEMPered](https://github.com/edorfaus/TEMPered) repository
 * The [source code](https://github.com/edorfaus/TEMPered/blob/master/utils/hid-query.c)
   of the `hid-query` utility
 
